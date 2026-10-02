@@ -1,7 +1,8 @@
-# nes-harness
+# nes-harness (archived)
 
-The NES layer of a Mesen 2 automation harness: controller map, battery-save
-wiping, and the NMI vector as the per-frame hook. Builds on
-[`mesen-harness`](https://github.com/chrisaacson69/mesen-harness); game adapters build on this.
+**Merged into [emu-harness](https://github.com/chrisaacson69/emu-harness) on 2026-10-02**,
+as `emu_harness/machines/nes`, with this repo's full history imported.
 
-**Status:** scaffold. No ROMs are included; you supply your own.
+Why: with BizHawk as a second emulator, emulator and console became independent
+plug-in axes rather than a stack, so one repo with `backends/` and `machines/`
+replaced `mesen-harness` + `nes-harness`.
